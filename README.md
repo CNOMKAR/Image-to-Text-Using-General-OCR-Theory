@@ -1,0 +1,1 @@
+# https-huggingface.co-spaces-omkar-surve126-Image-to-Text-Using-General-OCR-Theory
