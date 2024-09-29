@@ -1,14 +1,12 @@
 # Image Text OCR using GOT (General OCR Theory)
 This repository contains a Streamlit application that performs Optical Character Recognition (OCR) using the GOT (General OCR Theory) model. The application allows users to upload images, extract text from them, and search within the extracted text for specific words or phrases. The OCR functionality is powered by the GOT_CPU model hosted on Hugging Face.
 
-Demo
+## Demo
 Try the live demo on Hugging Face: GOT-OCR-Space
 
-Setup
+## Setup
 To set up the project locally, follow these steps:
-
 Clone this repository to your local machine:
-
 bash
 Copy code
 git clone https://github.com/your-username/your-repo.git
@@ -30,7 +28,7 @@ Copy code
 streamlit run app.py
 Open your web browser and navigate to the URL provided by Streamlit (usually http://localhost:8501).
 
-Features
+### Features
 Image Upload: Supports JPG, PNG, and JPEG formats.
 Text Extraction: Leverages the GOT model to extract text from uploaded images.
 Search Functionality: Users can search for specific words or phrases in the extracted text, and the application will highlight the matching results.
