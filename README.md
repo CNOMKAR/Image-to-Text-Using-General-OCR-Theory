@@ -4,13 +4,13 @@ This repository contains a Streamlit application that performs Optical Character
 ## Demo
 Try the live demo on Hugging Face: GOT-OCR-Space
 
-## Setup
+### Setup
 To set up the project locally, follow these steps:
 * Number 1 Clone this repository to your local machine
 * Number 2Make sure you have Python 3.7+ installed.
 * Number 3Install the required dependencies
 
-### Features
+#### Features
 Image Upload: Supports JPG, PNG, and JPEG formats.
 Text Extraction: Leverages the GOT model to extract text from uploaded images.
 Search Functionality: Users can search for specific words or phrases in the extracted text, and the application will highlight the matching results.
@@ -21,13 +21,13 @@ Model: srimanth-d/GOT_CPU
 Tokenizer: srimanth-d/GOT_CPU
 Although the code includes functions for initializing a GPU model, the deployed version of this application uses the CPU model due to limitations in the Hugging Face deployment environment. This may result in slower processing times but ensures compatibility across a broader range of systems.
 
-Performance and Limitations
+##### Performance and Limitations
 Performance
 The use of the CPU model may lead to slower processing compared to a GPU-accelerated version. However, this approach guarantees that the application runs smoothly in environments without GPU support, such as the Hugging Face deployment platform.
 
 Text Recognition Limitations
 While the GOT model works well for extracting text in English, the OCR results for Hindi text are currently not optimal and may produce inaccurate or incomplete extractions. This limitation is important to note when uploading images containing Hindi or other non-Latin script content. Future improvements to the model or using a model optimized for Hindi text may help mitigate this issue.
 
-Additional Information
+###### Additional Information
 Uploaded images are temporarily stored in the images directory.
 The search functionality is case-insensitive and highlights all occurrences of the search term in the extracted text.
