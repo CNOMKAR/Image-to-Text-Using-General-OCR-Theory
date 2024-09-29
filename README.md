@@ -6,27 +6,9 @@ Try the live demo on Hugging Face: GOT-OCR-Space
 
 ## Setup
 To set up the project locally, follow these steps:
-Clone this repository to your local machine:
-bash
-Copy code
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-Make sure you have Python 3.7+ installed.
-
-Install the required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-To run the application locally:
-
-Start the Streamlit application:
-
-bash
-Copy code
-streamlit run app.py
-Open your web browser and navigate to the URL provided by Streamlit (usually http://localhost:8501).
+* Number 1 Clone this repository to your local machine
+* Number 2Make sure you have Python 3.7+ installed.
+* Number 3Install the required dependencies
 
 ### Features
 Image Upload: Supports JPG, PNG, and JPEG formats.
