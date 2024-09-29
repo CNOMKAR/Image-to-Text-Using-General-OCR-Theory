@@ -6,15 +6,15 @@ Try the live demo on Hugging Face: [https://huggingface.co/spaces/omkar-surve126
 
 ## Setup
 To set up the project locally, follow these steps:
-* Number 1 Clone this repository to your local machine
-* Number 2Make sure you have Python 3.7+ installed.
-* Number 3Install the required dependencies
+* Clone this repository to your local machine
+* Make sure you have Python 3.7+ installed.
+* Install the required dependencies
 
 ## Features
-* Number 1 Image Upload: Supports JPG, PNG, and JPEG formats.
-* Number 2 Text Extraction: Leverages the GOT model to extract text from uploaded images.
-* Number 3 Search Functionality: Users can search for specific words or phrases in the extracted text, and the application will highlight the matching results.
-* Number 4 Model Information: The application uses the CPU version of the GOT (General OCR Theory) model for OCR tasks.
+* Image Upload: Supports JPG, PNG, and JPEG formats.
+* Text Extraction: Leverages the GOT model to extract text from uploaded images.
+* Search Functionality: Users can search for specific words or phrases in the extracted text, and the application will highlight the matching results.
+* Model Information: The application uses the CPU version of the GOT (General OCR Theory) model for OCR tasks.
 
 ## Performance
 The use of the CPU model may lead to slower processing compared to a GPU-accelerated version. However, this approach guarantees that the application runs smoothly in environments without GPU support, such as the Hugging Face deployment platform.
