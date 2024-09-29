@@ -1,4 +1,4 @@
-Image Text OCR using GOT (General OCR Theory)
+# Image Text OCR using GOT (General OCR Theory)
 This repository contains a Streamlit application that performs Optical Character Recognition (OCR) using the GOT (General OCR Theory) model. The application allows users to upload images, extract text from them, and search within the extracted text for specific words or phrases. The OCR functionality is powered by the GOT_CPU model hosted on Hugging Face.
 
 Demo
