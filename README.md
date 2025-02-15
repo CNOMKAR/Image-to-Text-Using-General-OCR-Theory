@@ -21,7 +21,3 @@ The use of the CPU model may lead to slower processing compared to a GPU-acceler
 
 ## Text Recognition Limitations
 While the GOT model works well for extracting text in English, the OCR results for Hindi text are currently not optimal and may produce inaccurate or incomplete extractions. This limitation is important to note when uploading images containing Hindi. Future improvements to the model or using a model optimized for Hindi text may help mitigate this issue.
-
-## Additional Information
-Uploaded images are temporarily stored in the images directory.
-The search functionality is case-insensitive and highlights all occurrences of the search term in the extracted text.
